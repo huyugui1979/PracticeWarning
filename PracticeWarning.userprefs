@@ -1,0 +1,43 @@
+﻿<Properties StartupItem="Droid/PracticeWarning.Droid.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.192.168.56.101:5555" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
+    <Files>
+      <File FileName="PracticeWarning/PracticeWarning.cs" Line="46" Column="46" />
+      <File FileName="PracticeWarning/Page/MyNaviPage.xaml" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Page/MyNaviPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Droid/Properties/AndroidManifest.xml" Line="12" Column="12" />
+      <File FileName="PracticeWarning/Page/LoginPage.xaml" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Page/LoginPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Page/RegisterPage.xaml" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Page/RegisterPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Page/UserInfo.xaml" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Page/UserInfo.xaml.cs" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Page/ResetPasswordPage.xaml" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Page/ResetPasswordPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Page/StudentListPage.xaml" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Page/StudentListPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Page/SignHistoryListPage.xaml" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Page/SignHistoryListPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Page/StudentInfoPage.xaml" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Page/StudentInfoPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="PracticeWarning.Model/User.cs" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Service/PersistenceService.cs" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Model/LoginModel.cs" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Control/MyEntry.cs" Line="1" Column="1" />
+      <File FileName="Droid/Renderer/MyEntryRenderer.cs" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Page/ForgetPasswordPage.xaml" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Page/ForgetPasswordPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Service/DataService.cs" Line="1" Column="1" />
+      <File FileName="PracticeWarning.Model/School.cs" Line="1" Column="1" />
+      <File FileName="PracticeWarningService/Program.cs" Line="1" Column="1" />
+      <File FileName="PracticeWarning/Page/WelcomePage.xaml" Line="40" Column="40" />
+      <File FileName="PracticeWarning/Page/WelcomePage.xaml.cs" Line="3" Column="3" />
+      <File FileName="PracticeWarning/Model/WelcomeModel.cs" Line="18" Column="18" />
+      <File FileName="Droid/MainActivity.cs" Line="7" Column="7" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

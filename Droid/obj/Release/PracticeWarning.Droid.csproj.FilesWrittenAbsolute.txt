@@ -1,0 +1,12 @@
+/Users/yuguihu/Documents/Projects/PracticeWarning/Droid/obj/Release/MonoAndroid,Version=v5.0.AssemblyAttribute.cs
+/Users/yuguihu/Documents/Projects/PracticeWarning/Droid/obj/Release/PracticeWarning.Droid.MyMapPage.xaml
+/Users/yuguihu/Documents/Projects/PracticeWarning/Droid/obj/Release/MyMapPage.xaml.g.cs
+/Users/yuguihu/Documents/Projects/PracticeWarning/Droid/bin/Release/Xamarin.Android.Support.v4.dll
+/Users/yuguihu/Documents/Projects/PracticeWarning/Droid/bin/Release/Xamarin.Forms.Platform.Android.dll
+/Users/yuguihu/Documents/Projects/PracticeWarning/Droid/bin/Release/FormsViewGroup.dll
+/Users/yuguihu/Documents/Projects/PracticeWarning/Droid/bin/Release/Xamarin.Forms.Core.dll
+/Users/yuguihu/Documents/Projects/PracticeWarning/Droid/bin/Release/Xamarin.Forms.Xaml.dll
+/Users/yuguihu/Documents/Projects/PracticeWarning/Droid/bin/Release/ExifLib.dll
+/Users/yuguihu/Documents/Projects/PracticeWarning/Droid/bin/Release/Xamarin.Forms.Labs.dll
+/Users/yuguihu/Documents/Projects/PracticeWarning/Droid/bin/Release/BaiduMap300Binding.dll
+/Users/yuguihu/Documents/Projects/PracticeWarning/Droid/bin/Release/IJavaObjectEx.dll

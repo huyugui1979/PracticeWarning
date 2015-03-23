@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:local="clr-namespace:PracticeWarning;assembly=PracticeWarning" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PracticeWarning.LoginPage">
+	<ContentPage.Content>
+		<ScrollView Orientation="Vertical">
+			<StackLayout Orientation="Vertical" Padding="10,10,10,0">
+				<Image Source="icon" HeightRequest="60" WidthRequest="60" HorizontalOptions="Center" />
+				<Frame OutlineColor="Gray" HasShadow="false" Padding="0,0,0,0">
+					<StackLayout Orientation="Vertical">
+						<StackLayout Orientation="Horizontal" Padding="10,0,0,0">
+							<Image Source="account_bg" HeightRequest="25" />
+							<local:BindablePicker ItemsSource="{Binding SchoolTypes}" Title="选择学校" SelectedItem="{Binding SchoolType}" />
+						</StackLayout>
+						<BoxView HeightRequest="0.35" HorizontalOptions="FillAndExpand" VerticalOptions="Center" BackgroundColor="#c8c7cc" />
+						<StackLayout Orientation="Horizontal" Padding="10,0,0,0">
+							<Image Source="account_bg" HeightRequest="25" />
+							<local:BindablePicker Title="学校" ItemsSource="{Binding UserTypes}" SelectedItem="{Binding UserType}" />
+						</StackLayout>
+						<BoxView HeightRequest="0.35" HorizontalOptions="FillAndExpand" VerticalOptions="Center" BackgroundColor="#c8c7cc" />
+						<StackLayout Orientation="Horizontal" Padding="10,0,0,0">
+							<Image Source="account_bg" HeightRequest="25" />
+							<local:MyEntry Text="{Binding UserName}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Placeholder="账号:" />
+						</StackLayout>
+						<BoxView HeightRequest="0.35" HorizontalOptions="FillAndExpand" VerticalOptions="Center" BackgroundColor="#c8c7cc" />
+						<StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" Padding="10,0,0,0">
+							<Image Source="password1" HeightRequest="25" />
+							<local:MyEntry IsPassword="true" Text="{Binding Password}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Placeholder="密码:" />
+						</StackLayout>
+					</StackLayout>
+				</Frame>
+				<Button Command="{Binding LoginCommand}" BackgroundColor="Blue" Text="登录" TextColor="White" />
+				<StackLayout Orientation="Horizontal" HorizontalOptions="Fill">
+					<Button BackgroundColor="Transparent" Text="注册" HorizontalOptions="Start" Command="{Binding RegisterCommand}" />
+					<Button BackgroundColor="Transparent" Text="忘记密码" Command="{Binding ForgetCommand}" HorizontalOptions="EndAndExpand" />
+				</StackLayout>
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>

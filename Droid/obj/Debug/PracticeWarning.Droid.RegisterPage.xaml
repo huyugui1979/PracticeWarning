@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:local="clr-namespace:PracticeWarning;assembly=PracticeWarning" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PracticeWarning.RegisterPage">
+	<ContentPage.Content>
+<ScrollView Orientation="Vertical">
+			<StackLayout Orientation="Vertical" Padding="10,10,10,0">
+				
+				<Frame OutlineColor="Gray" HasShadow="false" Padding="0,0,0,0">
+					<StackLayout Orientation="Vertical">
+						<StackLayout Orientation="Horizontal" Padding="10,0,0,0">
+							<Image Source="account_bg" HeightRequest="25" />
+							<local:BindablePicker ItemsSource="{Binding SchoolTypes}" Title="选择学校" SelectedItem="{Binding SchoolType}" />
+						</StackLayout>
+						<BoxView HeightRequest="0.35" HorizontalOptions="FillAndExpand" VerticalOptions="Center" BackgroundColor="#c8c7cc" />
+						<StackLayout Orientation="Horizontal" Padding="10,0,0,0">
+							<Image Source="account_bg" HeightRequest="25" />
+							<local:MyEntry Text="{Binding UserName}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Placeholder="姓名:" />
+						</StackLayout>
+						<BoxView HeightRequest="0.35" HorizontalOptions="FillAndExpand" VerticalOptions="Center" BackgroundColor="#c8c7cc" />
+						<StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" Padding="10,0,0,0">
+							<Image Source="password1" HeightRequest="25" />
+							<local:MyEntry IsPassword="true" Text="{Binding Password}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Placeholder="密码:" />
+						</StackLayout>
+						<BoxView HeightRequest="0.35" HorizontalOptions="FillAndExpand" VerticalOptions="Center" BackgroundColor="#c8c7cc" />
+						<StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" Padding="10,0,0,0">
+							<Image Source="password1" HeightRequest="25" />
+							<local:MyEntry IsPassword="true" Text="{Binding Number}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Placeholder="学号:" />
+						</StackLayout>
+							<BoxView HeightRequest="0.35" HorizontalOptions="FillAndExpand" VerticalOptions="Center" BackgroundColor="#c8c7cc" />
+						<StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" Padding="10,0,0,0">
+							<Image Source="password1" HeightRequest="25" />
+							<local:MyEntry  Text="{Binding Phone}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Placeholder="手机:" />
+						</StackLayout>
+						<BoxView HeightRequest="0.35" HorizontalOptions="FillAndExpand" VerticalOptions="Center" BackgroundColor="#c8c7cc" />
+						<StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" Padding="10,0,0,0">
+							<Image Source="password1" HeightRequest="25" />
+							<local:MyEntry IsPassword="true" Text="{Binding VCode}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Placeholder="验证码:" />
+							<Button Text="发送验证码到手机" BackgroundColor="Blue" HorizontalOptions="EndAndExpand" Command="{Binding GetVCodeCommand}"/>
+						</StackLayout>
+					</StackLayout>
+				</Frame>
+				<Button Command="{Binding LoginCommand}" BackgroundColor="Blue" Text="下一步" TextColor="White" />
+			
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>
